@@ -1,100 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nithyadharani – Content Writing Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Portfolio of Nithyadharani N — content writing, SEO content, website copy, blogs and social media content.">
+  <title>Nithyadharani N | Content Writer & SEO Content Strategist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #0b3d91;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      color: #0b3d91;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 0.5rem;
-    }
-    .project {
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    a {
-      text-decoration: none;
-      color: #0b3d91;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #eee;
-      font-size: 0.9rem;
-    }
+    :root{--paper:#f7f5f0;--ink:#18231f;--muted:#66716b;--green:#c8f169;--green-dark:#254d3c;--card:#fffefa;--line:#e3e4dc;--lav:#e7e3ff;--peach:#ffe0ce;--shadow:0 18px 50px rgba(26,45,35,.08)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6} a{color:inherit;text-decoration:none} .wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:20px}.brand{font:800 1.12rem Manrope,sans-serif;letter-spacing:-.04em}.brand span{color:#527b46}.navlinks{display:flex;align-items:center;gap:25px;font-size:.91rem;color:#4e5b53}.navlinks a:hover{color:#1d513b}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:12px 18px;font-weight:700;font-size:.92rem}.nav-cta,.btn.primary{background:var(--ink);color:white}.btn.secondary{border:1px solid #cdd2c8;background:transparent}.btn:hover,.nav-cta:hover{transform:translateY(-2px);transition:.2s}
+    .hero{padding:70px 0 76px;display:grid;grid-template-columns:1.18fr .82fr;align-items:center;gap:54px}.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:.78rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#46634e}.dot{width:8px;height:8px;border-radius:50%;background:#7ab84a;box-shadow:0 0 0 5px #e4efd5}.hero h1{font:800 clamp(3rem,6.2vw,5.6rem)/1.02 Manrope,sans-serif;letter-spacing:-.075em;margin:20px 0 22px;max-width:700px}.hero h1 em{font-style:normal;position:relative;z-index:0;white-space:nowrap}.hero h1 em:after{content:'';position:absolute;z-index:-1;left:0;right:-3px;bottom:3px;height:26%;background:var(--green);transform:rotate(-1.5deg);border-radius:4px}.lead{font-size:1.12rem;color:var(--muted);max-width:600px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 24px}.micro{font-size:.83rem;color:#7b847d}.hero-art{position:relative;min-height:430px;display:grid;place-items:center}.orb{width:min(360px,85%);aspect-ratio:1;border-radius:48% 52% 44% 56% / 48% 43% 57% 52%;background:var(--green);position:relative;transform:rotate(-8deg)}.orb:before{content:'';position:absolute;inset:20px;border:1px solid rgba(24,35,31,.18);border-radius:inherit}.paper-card{position:absolute;background:var(--card);border:1px solid #ecece5;border-radius:20px;padding:20px;box-shadow:var(--shadow);transform:rotate(5deg);width:220px;right:0;top:72px}.paper-card small{color:var(--muted);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.68rem}.paper-card h3{font:700 1.18rem/1.3 Manrope;margin:12px 0}.paper-card .mini-line{height:7px;border-radius:10px;background:#e9ece5;margin:8px 0;width:90%}.paper-card .mini-line.short{width:60%}.sticker{position:absolute;left:0;bottom:58px;background:var(--lav);padding:18px 22px;border-radius:18px;transform:rotate(-7deg);font-weight:800;font-family:Manrope;box-shadow:var(--shadow)}.scribble{position:absolute;right:4px;bottom:48px;font-size:3.2rem;color:#527b46;transform:rotate(14deg)}
+    .strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:#59665d;font-size:.9rem}.strip strong{color:var(--ink)} section{padding:84px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:30px}.kicker{font-size:.76rem;text-transform:uppercase;letter-spacing:.14em;color:#527b46;font-weight:800}.section-head h2{font:800 clamp(2rem,4vw,3.25rem)/1.1 Manrope;letter-spacing:-.06em;margin:10px 0 0}.section-head p{color:var(--muted);max-width:440px;margin:0}
+    .work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.work-card{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:transform .22s,box-shadow .22s}.work-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.work-top{min-height:190px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}.work-top.green{background:#d9f1b5}.work-top.lilac{background:#e8e3ff}.work-top.peach{background:#ffe2d2}.work-top.blue{background:#dcecf5}.work-number{font-size:.78rem;font-weight:800;letter-spacing:.1em;color:#425447}.work-graphic{position:absolute;right:25px;bottom:-22px;width:140px;height:140px;border-radius:50%;border:1px solid rgba(24,35,31,.25);display:grid;place-items:center;font-size:2.7rem;transform:rotate(-12deg)}.work-graphic:after{content:'';position:absolute;inset:12px;border:1px solid rgba(24,35,31,.22);border-radius:50%}.work-top h3{font:800 1.7rem/1.12 Manrope;letter-spacing:-.05em;max-width:72%;margin:18px 0 0;z-index:1}.work-body{padding:24px}.tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}.tag{font-size:.72rem;font-weight:700;border-radius:999px;background:#f0f1eb;padding:6px 10px;color:#526056}.work-body p{margin:0 0 18px;color:var(--muted);font-size:.94rem}.text-link{font-weight:800;font-size:.9rem;display:inline-flex;gap:8px;align-items:center}.text-link:hover{color:#527b46}.note{font-size:.78rem;color:#7b847d;margin-top:10px}
+    .about{background:#1d2b25;color:#f7f5f0;border-radius:32px;padding:48px;display:grid;grid-template-columns:.85fr 1.15fr;gap:42px}.about .kicker{color:var(--green)}.about h2{font:800 clamp(2rem,4vw,3.3rem)/1.1 Manrope;letter-spacing:-.06em;margin:12px 0}.about p{color:#c6d0c8}.about-right{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:center}.skill{border:1px solid #43534a;border-radius:16px;padding:17px;background:rgba(255,255,255,.035)}.skill strong{display:block;font:700 1rem Manrope;margin-bottom:5px}.skill span{font-size:.83rem;color:#c6d0c8}
+    .process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.process{border-top:2px solid #c8d0c4;padding:20px 10px 0 0}.process .n{font:800 2rem Manrope;color:#87a26d}.process h3{font:700 1.08rem Manrope;margin:10px 0 7px}.process p{color:var(--muted);font-size:.9rem;margin:0}.contact{background:var(--green);border-radius:30px;padding:46px;display:flex;align-items:center;justify-content:space-between;gap:30px}.contact h2{font:800 clamp(2rem,4vw,3.5rem)/1.05 Manrope;letter-spacing:-.06em;margin:8px 0 12px;max-width:620px}.contact p{color:#435343;margin:0}.contact .btn{background:var(--ink);color:white;white-space:nowrap}.footer{padding:30px 0 36px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:.84rem}.footer-links{display:flex;gap:18px}.footer a:hover{color:var(--ink)}
+    @media(max-width:800px){.navlinks{gap:12px}.navlinks a:not(.nav-cta){display:none}.hero{grid-template-columns:1fr;padding-top:48px;gap:10px}.hero-art{min-height:340px}.paper-card{right:5%;top:32px}.sticker{left:4%;bottom:32px}.section-head{display:block}.section-head p{margin-top:12px}.about{grid-template-columns:1fr;padding:30px}.process-grid{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:32px}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1120px)}.nav{padding:17px 0}.nav-cta{padding:10px 13px;font-size:.8rem}.hero h1{font-size:3.15rem}.hero-art{min-height:300px}.orb{width:260px}.paper-card{width:180px;padding:15px;right:0}.paper-card h3{font-size:1rem}.sticker{font-size:.86rem;padding:13px 16px;bottom:18px}.scribble{font-size:2.4rem;bottom:14px}.strip{font-size:.8rem}section{padding:60px 0}.work-grid{grid-template-columns:1fr}.work-top{min-height:170px}.about-right{grid-template-columns:1fr 1fr}.process-grid{gap:22px 14px}.contact h2{font-size:2.4rem}.footer{flex-direction:column}.footer-links{flex-wrap:wrap}}
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>Nithyadharani N</h1>
-    <p>Content Writer|Digital Marketer</p>
+  <header class="wrap nav">
+    <a class="brand" href="#home" aria-label="Nithyadharani home">nithya<span>.</span></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#process">Process</a>
+      <a class="nav-cta" href="#contact">Let’s talk ↗</a>
+    </nav>
   </header>
-
   <main>
-    <section>
-      <h2>📸 Instagram Captions</h2>
-      <div class="project">
-        <p>Short-form captioning with engaging tone and brand-specific messaging for Instagram content.</p>
-        <a href="https://www.instagram.com/p/DFznltqtqnU/" target="_blank">View Post on Instagram</a>
+    <section class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Content writer · SEO-minded storyteller</div>
+        <h1>Words with <em>purpose.</em><br>Content with a plan.</h1>
+        <p class="lead">I’m Nithyadharani — I turn research into clear, useful content that helps brands explain what they do, connect with the right people, and show up in search.</p>
+        <div class="hero-actions"><a class="btn primary" href="#work">Explore my work <span>↘</span></a><a class="btn secondary" href="https://www.linkedin.com/in/nithyadharani-n-b6866a191/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
+        <div class="micro">Website copy · Blogs · SEO content · Social captions</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative content-writing illustration">
+        <div class="orb"></div>
+        <div class="paper-card"><small>Content brief / 01</small><h3>Make it useful.<br>Make it human.</h3><div class="mini-line"></div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-line"></div></div>
+        <div class="sticker">Research → Clarity → Impact</div><div class="scribble">✳</div>
+      </div>
+    </section>
+    <div class="wrap strip"><span><strong>01</strong> Research-first writing</span><span><strong>02</strong> Search-aware structure</span><span><strong>03</strong> Audience-led messaging</span><span><strong>04</strong> Detail-minded delivery</span></div>
+
+    <section class="wrap" id="work">
+      <div class="section-head"><div><div class="kicker">Selected projects</div><h2>Work that does the talking.</h2></div><p>A few examples across website content, brand storytelling and SEO-focused writing. Each project is linked to its live source where available.</p></div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-top green"><span class="work-number">PROJECT 01 / WEBSITE CONTENT</span><h3>Make complex planning feel clear.</h3><div class="work-graphic">✳</div></div>
+          <div class="work-body"><div class="tagrow"><span class="tag">Website copy</span><span class="tag">Brand messaging</span><span class="tag">Research</span></div><p>Content sample for PlanMyEstate, an estate-planning platform. The messaging introduces the brand’s purpose and explains services in a clear, reassuring, people-first tone.</p><a class="text-link" href="https://planmyestate.in/about-us/" target="_blank" rel="noreferrer">View website sample ↗</a><div class="note">Linked sample: About Us page</div></div>
+        </article>
+        <article class="work-card">
+          <div class="work-top lilac"><span class="work-number">PROJECT 02 / SOCIAL CONTENT</span><h3>Small words. Strong brand voice.</h3><div class="work-graphic">✎</div></div>
+          <div class="work-body"><div class="tagrow"><span class="tag">Instagram captions</span><span class="tag">Social media</span><span class="tag">Tone of voice</span></div><p>Social content sample from PlanMyEstate’s Instagram presence, focused on making a specialist topic more approachable and easy to engage with.</p><a class="text-link" href="https://www.instagram.com/planmyestate/?hl=en" target="_blank" rel="noreferrer">View Instagram sample ↗</a><div class="note">Open the profile to explore published posts</div></div>
+        </article>
+        <article class="work-card">
+          <div class="work-top peach"><span class="work-number">PROJECT 03 / B2B WEB CONTENT</span><h3>Technical topics, made approachable.</h3><div class="work-graphic">⌘</div></div>
+          <div class="work-body"><div class="tagrow"><span class="tag">Website content</span><span class="tag">B2B</span><span class="tag">Technology</span></div><p>Website content sample associated with Sankhyana, a specialist provider in enterprise AI, advanced analytics and CDISC/SAS consulting.</p><a class="text-link" href="https://www.sankhyana.com/" target="_blank" rel="noreferrer">Visit Sankhyana ↗</a><div class="note">Company website used as a portfolio reference</div></div>
+        </article>
+        <article class="work-card">
+          <div class="work-top blue"><span class="work-number">PROJECT 04 / BLOG & SEO</span><h3>Helpful answers, built around intent.</h3><div class="work-graphic">↗</div></div>
+          <div class="work-body"><div class="tagrow"><span class="tag">Blog writing</span><span class="tag">SEO structure</span><span class="tag">Web research</span></div><p>Explore a finance blog sample about managing irregular income, plus a digital-discovery website content sample from my existing portfolio.</p><a class="text-link" href="https://nithya-123-prog.github.io/content-writer-portfolio/" target="_blank" rel="noreferrer">Open portfolio samples ↗</a><div class="note">Includes blog and Canearbyme references</div></div>
+        </article>
       </div>
     </section>
 
-    <section>
-      <h2>📝 Blog / Article Writing</h2>
-      <div class="project">
-        <p>Finance blog: How to manage irregular income with practical budgeting strategies.</p>
-        <a href="https://www.ramseysolutions.com/budgeting/how-to-budget-an-irregular-income" target="_blank">Read the Article</a>
+    <section class="wrap" id="about">
+      <div class="about">
+        <div><div class="kicker">A little about me</div><h2>Curiosity first.<br>Clarity always.</h2><p>I enjoy understanding a topic before writing about it. My approach combines audience research, competitor review, credible sources and SEO fundamentals to create content that feels natural to read and has a clear purpose.</p><p>I’m interested in content writing, copywriting and SEO content opportunities across technology, education, lifestyle and service-led brands.</p></div>
+        <div class="about-right">
+          <div class="skill"><strong>SEO & research</strong><span>Keyword research, search intent, competitor analysis, on-page content</span></div>
+          <div class="skill"><strong>Content writing</strong><span>Blogs, website pages, service descriptions and educational content</span></div>
+          <div class="skill"><strong>Social & copy</strong><span>Captions, short-form copy, campaign messaging and content calendars</span></div>
+          <div class="skill"><strong>Tools I use</strong><span>Semrush, Ahrefs, Google Analytics, Search Console, WordPress, Canva</span></div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>🌐 Web Content Writing</h2>
-      <div class="project">
-        <p>Professional content for Sankhyana Consultancy – India's largest SAS training partner.</p>
-        <a href="https://www.sankhyana.com" target="_blank">Visit Sankhyana Website</a>
+    <section class="wrap" id="process">
+      <div class="section-head"><div><div class="kicker">How I work</div><h2>A thoughtful process, every time.</h2></div><p>Good content starts before the first sentence. Here’s the simple framework I use to keep work relevant, readable and on brief.</p></div>
+      <div class="process-grid">
+        <div class="process"><div class="n">01</div><h3>Understand</h3><p>Clarify the audience, brief, goal, tone and desired action.</p></div>
+        <div class="process"><div class="n">02</div><h3>Research</h3><p>Review credible sources, competitors, keywords and search intent.</p></div>
+        <div class="process"><div class="n">03</div><h3>Write</h3><p>Build a clear structure and write in a natural, audience-first voice.</p></div>
+        <div class="process"><div class="n">04</div><h3>Refine</h3><p>Check clarity, accuracy, grammar, SEO basics and consistency with the brief.</p></div>
       </div>
-      <div class="project">
-        <p>SEO-focused service page content for Canearbyme – a digital discovery platform.</p>
-        <a href="https://canearbyme.com/" target="_blank">Visit Canearbyme</a>
-      </div>
+    </section>
+
+    <section class="wrap" id="contact">
+      <div class="contact"><div><div class="kicker">Have a project in mind?</div><h2>Let’s make something worth reading.</h2><p>Open to content writing, copywriting and SEO content opportunities.</p></div><a class="btn" href="https://www.linkedin.com/in/nithyadharani-n-b6866a191/" target="_blank" rel="noreferrer">Message me on LinkedIn ↗</a></div>
     </section>
   </main>
-
-  <footer>
-    © 2025 Nithyadharani. All rights reserved.
-  </footer>
-
+  <footer class="wrap footer"><span>© <span id="year">2026</span> Nithyadharani N · Built with clarity and care.</span><div class="footer-links"><a href="https://www.linkedin.com/in/nithyadharani-n-b6866a191/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://nithya-123-prog.github.io/content-writer-portfolio/" target="_blank" rel="noreferrer">Previous portfolio ↗</a><a href="#home">Back to top ↑</a></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
-
